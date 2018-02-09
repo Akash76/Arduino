@@ -11,8 +11,6 @@ void loop() {
   if (Serial.available()>0){
   char b;
 b=Serial.read();
-A.clear();
 A.print(b);
 delay(150);}
-
 }
